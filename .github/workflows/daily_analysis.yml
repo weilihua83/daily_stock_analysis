@@ -93,7 +93,7 @@ jobs:
           # ==========================================
           # 搜索服务
           # ==========================================
-          BOCHA_API_KEYS: ${{ secrets.BOCHA_API_KEYS }}
+          BOCHA_API_KEYS: ${{ secrets.BOCHA_API_KEYS || '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' }}
           TAVILY_API_KEYS: ${{ secrets.TAVILY_API_KEYS }}
           SERPAPI_API_KEYS: ${{ secrets.SERPAPI_API_KEYS }}
           MINIMAX_API_KEYS: ${{ secrets.MINIMAX_API_KEYS }}
